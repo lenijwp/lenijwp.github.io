@@ -21,15 +21,15 @@ Publications
 ======
 
 * COSTELLO: Contrastive Testing for Embedding-based Large Language Model as a Service Embeddings.   
-**Weipeng Jiang**, Juan Zhai, Shiqing Ma, Xiaoyu Zhang, Chao Shen
+**Weipeng Jiang**, Juan Zhai, Shiqing Ma, Xiaoyu Zhang, Chao Shen    
 ACM International Conference on the Foundations of Software Engineering 2024 (**FSE24, Direct Acceptance Rate 11.8%**)
 
 * Fairness in Machine Learning: Definition, Testing, Debugging and Application.  
 Xuanqi Gao, Chao Shen, **Weipeng Jiang**, Chenhao Lin, Qian Li, Qian Wang, Qi Li, Xiaohong Guan  
 Science China Information Sciences[J] 2024
 
-* [Black-Box Fairness Testing with Shadow Models](https://dl.acm.org/doi/10.1007/978-981-99-7356-9_28).   
-**Weipeng Jiang**, Chao Shen, Chenhao Lin, Jingyi Wang, Jun Sun, Xuanqi Gao
+* [Black-Box Fairness Testing with Shadow Models](https://dl.acm.org/doi/10.1007/978-981-99-7356-9_28).     
+**Weipeng Jiang**, Chao Shen, Chenhao Lin, Jingyi Wang, Jun Sun, Xuanqi Gao   
 International Conference on Information and Communications Security 2023 (**ICICS23**)
 
 
