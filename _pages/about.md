@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-* I am a third-year Ph.D. student in [School of Cyber Science and Engineering](http://cybersec.xjtu.edu.cn/) at [Xi'an Jiaotong University](http://www.xjtu.edu.cn/). As a member of the Laboratory for Advanced Computing and Intelligent Security, I am being advised by Prof.[Chao Shen](https://gr.xjtu.edu.cn/en/web/cshen/home).
+* I am a third-year Ph.D. student in [School of Cyber Science and Engineering](http://cybersec.xjtu.edu.cn/) at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/). As a member of the Laboratory for Advanced Computing and Intelligent Security, I am being advised by Prof.[Chao Shen](https://gr.xjtu.edu.cn/en/web/cshen/home).
 I am advised by Prof. Chao Shen. Additionally, I am very honored to work closely with Prof.[Juan Zhai](https://people.cs.umass.edu/~juanzhai/?_gl=1*1qkfoiq*_gcl_au*MTIxNDA2NTU2MC4xNzAxNjE3NjUy*_ga*Nzg0NzEzNTg3LjE3MDE2MTc2NTQ.*_ga_21RLS0L7EB*MTcwNzk2MzE0OS4yNS4wLjE3MDc5NjMxNDkuMC4wLjA.) and Prof.[Shiqing Ma](https://people.cs.umass.edu/~shiqingma/). 
 
 * My research interests are <b>AI for Software Engineering (AI4SE)</b> and <b>Software Engineering for AI (SE4AI)</b>. More specifically, I am interested in:
