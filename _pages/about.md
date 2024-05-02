@@ -12,9 +12,9 @@ redirect_from:
 Additionally, I am also very honored to work closely with Prof.[Juan Zhai](https://people.cs.umass.edu/~juanzhai/?_gl=1*1qkfoiq*_gcl_au*MTIxNDA2NTU2MC4xNzAxNjE3NjUy*_ga*Nzg0NzEzNTg3LjE3MDE2MTc2NTQ.*_ga_21RLS0L7EB*MTcwNzk2MzE0OS4yNS4wLjE3MDc5NjMxNDkuMC4wLjA.) and Prof.[Shiqing Ma](https://people.cs.umass.edu/~shiqingma/). 
 
 * My research interests are <b>AI for Software Engineering (AI4SE)</b> and <b>Software Engineering for AI (SE4AI)</b>. More specifically, I am interested in:
-    * Redteaming for large language models and their applications, covering privacy, safety and ethical concerns.
+    * Redteaming for large languague models (LLMs), covering privacy, safety and ethical concerns.
     * Fairness testing and debugging for AI-based decision-making systems.
-    * Reliability analysis for LM-driven code generation.
+    * Testing and Evaluation for LLM-driven SE Tools.
 
 
 Publications
@@ -23,6 +23,10 @@ Publications
 * COSTELLO: Contrastive Testing for Embedding-based Large Language Model as a Service Embeddings.   
 **Weipeng Jiang**, Juan Zhai, Shiqing Ma, Xiaoyu Zhang, Chao Shen    
 ACM International Conference on the Foundations of Software Engineering 2024 (**FSE24, Direct Acceptance Rate 11.8%**)
+
+* [A Survey of Deep Learning Library Testing Methods](https://arxiv.org/abs/2404.17871#/).   
+Xiaoyu Zhang, **Weipeng Jiang**, Chao Shen, Qi Li, Qian Wang, Chenhao Lin, Xiaohong Guan  
+arxiv.
 
 * Fairness in Machine Learning: Definition, Testing, Debugging and Application.  
 Xuanqi Gao, Chao Shen, **Weipeng Jiang**, Chenhao Lin, Qian Li, Qian Wang, Qi Li, Xiaohong Guan  
