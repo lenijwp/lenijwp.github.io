@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Weipeng Jiang's homepage"
 title_separator          : "-"
 name                     : &name "Weipeng Jiang"
-description              : &description "PhD student in XJTU"
+description              : &description "PhD student in Xi'an Jiaotong University(XJTU)"
 url                      : https://lenijwp.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lenijwp.github.io"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Weipeng Jiang"
-  avatar           : "photo.jpg"
+  avatar           : "avator.jpeg"
   bio              : "PhD student in XJTU"
   location         : "Xi'an, Shaanxi 710049"
   employer         :
