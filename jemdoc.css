@@ -365,3 +365,21 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+.pdf-link {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    color: #007bff;
+}
+
+.pdf-link img {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.pdf-link:hover {
+    color: #0056b3;
+}
