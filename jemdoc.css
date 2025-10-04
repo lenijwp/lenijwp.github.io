@@ -1,42 +1,53 @@
-/* Default css file for jemdoc. */
+/* Modern minimalist css for academic homepage */
 
 table#tlayout {
     border: none;
     border-collapse: separate;
-    background: white;
+    background: transparent;
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 body {
-	background: rgb(193, 242, 246);
-	font-family: Georgia, serif;
-	padding-bottom: 8px;
+	background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+	font-family: 'Times New Roman', Times, serif;
+	padding: 20px;
 	margin: 0;
+	color: #2c3e50;
+	line-height: 1.6;
+	min-height: 100vh;
 }
 
 #layout-menu {
-	background: #e6f3e8;
-	border: 1px solid #dddddd;
-	padding-top: 2em;
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 1.0em;
+	background: #ffffff;
+	border: none;
+	border-radius: 12px;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+	padding: 1.5em;
+	font-size: 0.95em;
 	width: auto;
 	white-space: nowrap;
     text-align: left;
     vertical-align: top;
+    transition: all 0.3s ease;
 }
 
 #layout-menu td {
-	background: #f4f4f4;
+	background: transparent;
     vertical-align: top;
 }
 
 #layout-content {
-	padding-top: 2 em;
-	padding-left: 1.0em;
-	padding-right: 1.0em;
+	padding: 2.5em 3em;
+	padding-left: 3em;
+	padding-right: 3em;
     border: none;
-    background: white;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
     text-align: left;
     vertical-align: top;
 }
@@ -56,43 +67,61 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #224b8d;
+	color: #2563eb;
 	text-decoration: none;
+	transition: all 0.2s ease;
 }
 
 a:hover {
-	border-bottom: 1px gray dotted;
+	color: #1e40af;
+	border-bottom: 2px solid #93c5fd;
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #022b6d;
-	border-bottom: 1px gray solid;
+	color: #1e40af;
+	font-weight: 600;
+	border-bottom: 2px solid #2563eb;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #266ee2;
+	color: #2563eb;
 	text-decoration: none;
+	transition: all 0.2s ease;
 }
 #layout-menu a:hover {
+	color: #1e40af;
 	text-decoration: none;
 }
 
 div.menu-category {
-	border-bottom: 1px solid gray;
-	margin-top: 0.8em;
-	padding-top: 0.2em;
-	padding-bottom: 0.1em;
-	font-weight: bold;
+	border-bottom: 2px solid #e5e7eb;
+	margin-top: 1.2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-weight: 600;
+	color: #374151;
+	font-size: 0.85em;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
 }
 
 div.menu-item {
 	padding-left: 16px;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
 	text-indent: -16px;
+	transition: all 0.2s ease;
+}
+
+div.menu-item:hover {
+	background: #f9fafb;
+	border-radius: 6px;
+	padding-left: 20px;
 }
 
 div#toptitle {
-	padding-bottom: 0.2em;
+	padding-bottom: 0.8em;
 	margin-bottom: 1.5em;
-	border-bottom: 3px double gray;
+	border-bottom: 3px solid #e5e7eb;
 }
 
 /* Reduce space if we begin the page with a title. */
@@ -117,22 +146,35 @@ strong {
 
 
 h1, h2, h3 {
-	color: #527bbd;
-	margin-top: 0.7em;
-	margin-bottom: 0.3em;
-	padding-bottom: 0.2em;
-	line-height: 1.0;
+	color: #1e293b;
+	margin-top: 1.2em;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.3em;
+	line-height: 1.3;
 	padding-top: 0.5em;
-	border-bottom: 1px solid #aaaaaa;
+	border-bottom: 2px solid #e5e7eb;
+	font-weight: 600;
 }
 
 h1 {
-	font-size: 165%;
+	font-size: 2em;
+	color: #0f172a;
 }
 
 h2 {
-	padding-top: 0.8em;
-	font-size: 125%;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-top: 1.8em;
+	margin-bottom: 1em;
+	font-size: 1.5em;
+	color: #1e293b;
+	background: linear-gradient(to right, #e0f2fe 0%, #f0f9ff 100%);
+	border-left: 5px solid #2563eb;
+	border-bottom: none;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 h2 + h3 {
@@ -140,8 +182,27 @@ h2 + h3 {
 }
 
 h3 {
-	font-size: 110%;
+	font-size: 1.2em;
 	border-bottom: none;
+	color: #334155;
+	padding-left: 0.8em;
+	border-left: 3px solid #94a3b8;
+	background: #f8fafc;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	padding-right: 0.8em;
+	margin-top: 1.5em;
+	border-radius: 6px;
+}
+
+h4 {
+	font-size: 1.05em;
+	color: #475569;
+	font-weight: 600;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	padding-left: 0.5em;
+	border-left: 2px solid #cbd5e1;
 }
 
 p {
@@ -371,7 +432,12 @@ table.imgtable, table.imgtable td {
     display: inline-flex;
     align-items: center;
     font-size: 14px;
-    color: #007bff;
+    color: #2563eb;
+    padding: 4px 10px;
+    margin-right: 8px;
+    border-radius: 6px;
+    background: #eff6ff;
+    transition: all 0.2s ease;
 }
 
 .pdf-link img {
@@ -381,5 +447,26 @@ table.imgtable, table.imgtable td {
 }
 
 .pdf-link:hover {
-    color: #0056b3;
+    color: #1e40af;
+    background: #dbeafe;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+    border-bottom: none;
+}
+
+/* Menu image styling */
+.menu-image {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.menu-image img {
+    border-radius: 50%;
+    border: 4px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.menu-image img:hover {
+    border-color: #2563eb;
+    transform: scale(1.05);
 }
