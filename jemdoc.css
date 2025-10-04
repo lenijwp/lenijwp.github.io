@@ -205,6 +205,15 @@ h4 {
 	border-left: 2px solid #cbd5e1;
 }
 
+/* Paper title styling */
+ol li p i {
+	font-style: normal;
+	font-weight: 600;
+	color: #1e40af;
+	font-size: 1.05em;
+	font-family: 'Times New Roman', Times, serif;
+}
+
 p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
