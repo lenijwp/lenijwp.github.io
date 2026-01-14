@@ -1,311 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Weipeng Jiang - Ph.D. student at Xi'an Jiaotong University, researching AI for Software Engineering, Trustworthy AI, and LLM Safety">
-<meta name="keywords" content="Weipeng Jiang, AI4SE, SE4AI, Trustworthy AI, LLM Safety, Machine Learning, Software Engineering">
-<meta name="author" content="Weipeng Jiang">
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="bookmark" href="favicon.ico" type="image/x-icon"/>
-<title>Weipeng Jiang's Homepage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Weipeng Jiang - Ph.D. student at Xi'an Jiaotong University, researching AI for Software Engineering, Trustworthy AI, and LLM Safety">
+  <meta name="keywords"
+    content="Weipeng Jiang, AI4SE, SE4AI, Trustworthy AI, LLM Safety, Machine Learning, Software Engineering">
+  <meta name="author" content="Weipeng Jiang">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>Weipeng Jiang's Homepage</title>
 </head>
+
 <body>
-<table summary="Table for page layout." id="tlayout">
-    <tr valign="top">
-        <!-- 侧边栏 -->
-        <td id="layout-menu">
-          <div class="menu-image">
-            <img src="photos/动漫风.png" alt="Profile photo" width="160px" />
-          </div>
-          <div class="menu-category">Menu</div>
-          <div class="menu-item"><a href="index.html" class="current">Home</a></div>
-          <div class="menu-item"><a href="https://scholar.google.com.hk/citations?user=EcDuPYkAAAAJ&hl=en">Google Scholar</a></div>
-          <div class="menu-item"><a href="https://github.com/lenijwp">GitHub</a></div>
-          
-          <div class="menu-category">Contact</div>
-            <div class="menu-item">
-                <a href="mailto:lenijwp@gmail.com">
-                    ✉️ lenijwp@gmail.com
-                </a>
+
+  <div class="container">
+    <aside>
+      <img src="photos/动漫风.png" alt="Profile photo" class="profile-photo">
+
+      <nav class="sidebar-nav">
+        <div class="nav-section">
+          <div class="nav-title">Menu</div>
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="https://scholar.google.com.hk/citations?user=EcDuPYkAAAAJ&hl=en" class="nav-link"
+            target="_blank">Google Scholar</a>
+          <a href="https://github.com/lenijwp" class="nav-link" target="_blank">GitHub</a>
+        </div>
+
+        <div class="nav-section">
+          <div class="nav-title">Contact</div>
+          <div class="contact-info">
+            <div class="contact-item">
+              <span>✉️</span>
+              <a href="mailto:lenijwp@gmail.com">lenijwp@gmail.com</a>
             </div>
-            <br>
-            <div class="menu-item">
-            <a href="https://info.flagcounter.com/7C6Z">
-              <img src="https://s01.flagcounter.com/count2/7C6Z/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0">
-            </a>
           </div>
-        </td>
-    
+        </div>
 
-    
-<td id="layout-content">
-<div id="toptitle">
-<h1>Weipeng Jiang <span class="chinese-name">(降伟鹏)</span></h1>
-</div>
-<!-- </td></tr> -->
-<h2>About me</h2>
-<p>
+        <div class="nav-section">
+          <a href="https://info.flagcounter.com/7C6Z">
+            <img
+              src="https://s01.flagcounter.com/count2/7C6Z/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
+              alt="Flag Counter" border="0" style="width: 100%;">
+          </a>
+        </div>
+      </nav>
+    </aside>
 
-  I am a fifth-year Ph.D. student at the School of Cyber Science and Engineering, Xi'an Jiaotong University, advised by Prof. <a href="https://gr.xjtu.edu.cn/en/web/cshen/home">Chao Shen</a>. I am also very fortunate to work closely with Prof. <a href="https://people.cs.umass.edu/~shiqingma/">Shiqing Ma</a> at University of Massachusetts Amherst.
-  Previously, I was a visiting Ph.D. student at Singapore Management University (SMU), under the supervision of Prof. <a href="https://xiaofeixie.bitbucket.io/#/">Xiaofei Xie</a>.
-    
-  <br /> 
-<!-- <p style="color: red;">🔥 The lab has several positions for master's and doctoral students every year. We also warmly welcome undergraduate research assistants to join us. The lab provides sufficient computing resources and financial support. 
-Students interested in machine learning and data mining are welcome to join us. Please email me and attach your recent CV or other materials.</p> -->
+    <main>
+      <section id="header">
+        <h1>Weipeng Jiang <span class="chinese-name">(降伟鹏)</span></h1>
+      </section>
 
-<p>My research interests encompass <b>Intersection of Software Engineering and AI (AI4SE, SE4AI)</b> and <b>Trustworthy AI</b>. Specifically, I am actively involved in the following topics:  </p>
-<ul>
-<li><p>Effective and Efficient Red Teaming and Auditing for LLM Safety, Fairness, and Privacy;</p>
-</li>
-<li><p>Deep Evaluation on CodeLLM/Code Agent in Various Software Engineering Tasks;</p>
-</li>
-<li><p>Software Quality Assurance and Security Analysis for DL (particularly LLM) Infrastructure;</p>
-</li>
-<!-- <li><p>Spatio-Temporal Data Mining</p>
-</li>
-<li><p>Multi-Task Learning</p>
-</li>
-<li><p>Recommender Systems</p>
-</li>
-<li><p>Large Language Models</p>
-</li> -->
-</ul>
-  
-<!-- <p>I am a ‘JLU-CityU’ joint Ph.D. student under the supervision of Prof. <a href="https://ccst.jlu.edu.cn/info/1026/16988.htm">Hongwei Zhao</a> and Prof. <a href="https://zhaoxyai.github.io/">Xiangyu Zhao</a>. 
-  Before that, I received my Master’s and Bachelor’s degrees from Jilin University in 2021 and 2018, respectively.<br /> 
-I am optimistic and vigorous. I like singing and hiking in my spare time.<br /> </p>  -->
-<!-- <p>Download my <a href="CV_Zijian.pdf">CV</a>. </p> -->
-  
-<h2>News</h2>
-<ul>
-<li><p><strong>[Feb 2025]</strong> Two papers are accepted by AAAI 2026.</p></li>
-<li><p><strong>[Feb 2025]</strong> Fortunate to serve on the Program Committee for The 1st International Workshop on Large Language Model Supply Chain Analysis <a href="https://llmsc.github.io/">(LLMSC 2025)</a>.</p></li>
-<li><p><strong>[Jan 2025]</strong> Our paper about LLM Jailbreaking is accepted by NAACL Findings 2025.</p></li>
-<li><p><strong>[Dec 2024]</strong> Invited to serve as a reviewer for <a href="https://icml.cc/">ICML 2025</a>.</p></li>
-<li><p><strong>[Aug 2024]</strong> Invited to serve as a reviewer for <a href="https://iclr.cc/Conferences/2025/CallForPapers">ICLR 2025</a>.</p></li>
-<li><p><strong>[Aug 2024]</strong> Invited to serve as a program committee of Artifact Evaluation Track for <a href="https://conf.researchr.org/track/icse-2025/icse-2025-artifact-evaluation">ICSE 2025</a>.</p></li>
-<li><p><strong>[June 2024]</strong> New preprint is online <a href="https://arxiv.org/abs/2406.00602#/">From Effectiveness to Efficiency: Comparative Evaluation of Code Generated by LCGMs for Bilingual Programming Questions</a>.</p></li>
-<li><p><strong>[May 2024]</strong> Invited to serve as a reviewer for <a href="https://neurips.cc/Conferences/2024/CallForPapers#/">NeurIPS 2024</a>.</li>
-<li><p><strong>[Feb 2024]</strong> Our paper about Embedding-Service Testing is accepted by FSE'24.</p></li>
-</ul>
-  
-<h2>Research Publications</h2> 
-<!-- <h3>Publications </h3> -->
-( * indicates equal contribution.)<br><br>
+      <section id="about">
+        <h2>About me</h2>
+        <p>
+          I am a fifth-year Ph.D. student at the School of Cyber Science and Engineering, Xi'an Jiaotong University,
+          advised by Prof. <a href="https://gr.xjtu.edu.cn/en/web/cshen/home" target="_blank">Chao Shen</a>. I am also
+          very fortunate to work closely with Prof. <a href="https://people.cs.umass.edu/~shiqingma/"
+            target="_blank">Shiqing Ma</a> at University of Massachusetts Amherst.
+          Previously, I was a visiting Ph.D. student at Singapore Management University (SMU), under the supervision of
+          Prof. <a href="https://xiaofeixie.bitbucket.io/#/" target="_blank">Xiaofei Xie</a>.
+        </p>
 
-<b>Preprints</b>
-<ol>
-<li>
-  <p><i>The Foundation Cracks: A Comprehensive Study on Bugs and Testing Practices in LLM Libraries</i></p>
-  <p><span class="paper-info"><b>Weipeng Jiang</b>, Xiaoyu Zhang, Xiaofei Xie, Jiongchi Yu, Yuhan Zhi, Shiqing Ma, Chao Shen<br>
-  Arxiv.</span>
-  <span class="paper-links"><a href="https://arxiv.org/pdf/2506.12320" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">Paper</a></span></p>
-  </li>
-<li>
-<p><i>From Effectiveness to Efficiency: Uncovering Linguistic Bias in Large Language Model-based Code Generation</i></p>
-<p><span class="paper-info"><b>Weipeng Jiang</b>, Xuanqi Gao, Juan Zhai, Shiqing Ma, Xiaoyu Zhang, Ziyan Lei, Chao Shen<br>
-Arxiv.</span>
-<span class="paper-links"><a href="https://arxiv.org/pdf/2406.00602" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">Paper</a></span></p>
-</li>
-<!-- <li>
-<p><i>A Survey of Deep Learning Library Testing Methods</i><br>
-Xiaoyu Zhang, <b>Weipeng Jiang</b>, Chao Shen, Qi Li, Qian Wang, Chenhao Lin, Xiaohong Guan<br>
-Arxiv.</b></p>
-<p><a href="https://arxiv.org/pdf/2404.17871" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">Paper</a>
-</li> -->
-</ol>
+        <p>My research interests encompass <b>Intersection of Software Engineering and AI (AI4SE, SE4AI)</b> and
+          <b>Trustworthy AI</b>.
+        </p>
 
-<b>Conference papers</b>
-<ol>
-<li>
-  <p><i>From Chaos to Clarity: A Knowledge Graph-Driven Audit Dataset Generation Framework for LLM Unlearning</i></p>
-  <p><span class="paper-info"><b>Weipeng Jiang</b>, Juan Zhai, Shiqing Ma, Ziyan Lei, Xiaofei Xie, Yige Wang, Chao Shen<br>
-  The Fortieth AAAI Conference on Artificial Intelligence <b>(AAAI'26)</b>.</span>
-  <span class="paper-links"><a href="https://arxiv.org/pdf/2502.18810" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">Paper</a></span></p>
-  </li>
-<li>
-  <p><i>MoMoREC: A Multi-agent Motivation Generation Framework for Residual Semantic ID-Aware Recommendation</i></p>
-  <p><span class="paper-info">Yige Wang, Mingming Li, Li Wang, Kaichen Zhao, Wangming Li, <b>Weipeng Jiang</b>, Xueying LI<br>
-  The Fortieth AAAI Conference on Artificial Intelligence <b>(AAAI'26)</b></span></p>
-  </li>
-<li>
-    <p><i>The Invisible Hand: Unveiling Provider Bias in Large Language Models for Code Generation</i></p>
-    <p><span class="paper-info">Xiaoyu Zhang, Juan Zhai, Shiqing Ma, Qingshuang Bao, <b>Weipeng Jiang</b>, Chao Shen, Yang Liu<br>
-    Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics <b>(ACL'25)</b>.</span>
-    <span class="paper-links"><a href="https://arxiv.org/pdf/2501.07849" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">Paper</a></span></p>
-    </li>
-<li>
-    <p><i>An Optimizable Suffix Is Worth A Thousand Templates: Efficient Black-box Jailbreaking without Affirmative Phrases via LLM as Optimizer</i></p>
-    <p><span class="paper-info"><b>Weipeng Jiang</b>, Zhenting Wang, Juan Zhai, Shiqing Ma, Zhengyu Zhao, Chao Shen<br>
-    Findings of American Chapter of the Association for Computational Linguistics Findings <b>(NAACL Findings'25)</b></span>
-    <span class="paper-links"><a href="https://arxiv.org/pdf/2408.11313" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">Paper</a> <a href="https://github.com/lenijwp/ECLIPSE" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" alt="Code Icon">Code</a></span></p>
-</li>
+        <div class="research-tags">
+          <span class="tag">AI Safety/Security</span>
+          <span class="tag">LLM Evaluation</span>
+          <span class="tag">AI Infra Testing</span>
+          <span class="tag">AI for SE</span>
+        </div>
+      </section>
 
-<li>
-    <p><i>STAFF: Speculative Coreset Selection for Task-Specific Fine-tuning</i></p>
-    <p><span class="paper-info">Xiaoyu Zhang, Juan Zhai, Shiqing Ma, Chao Shen, Tianlin Li, <b>Weipeng Jiang</b>, Yang Liu<br>
-    The 13rd International Conference on Learning Representations <b>(ICLR'25)</b></span>
-    <span class="paper-links"><a href="https://openreview.net/pdf?id=FAfxvdv1Dy" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">Paper</a> <a href="https://anonymous.4open.science/r/STAFF-4323" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" alt="Code Icon">Code</a></span></p>
-</li>
-<li>
-    <p><i>Efficient DNN-Powered Software with Fair Sparse Models</i></p>
-    <p><span class="paper-info">Xuanqi Gao, <b>Weipeng Jiang</b>, Juan Zhai, Shiqing Ma, Xiaoyu Zhang, Chao Shen<br>
-    The 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis <b>(ISSTA'24)</b></span>
-    <span class="paper-links"><a href="https://arxiv.org/pdf/2407.02805" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">Paper</a> <a href="https://github.com/Antimony5292/Ballot" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" alt="Code Icon">Code</a></span></p>
-</li>
-<li>
-    <p><i>COSTELLO: Contrastive Testing for Embedding-based Large Language Model as a Service Embeddings</i></p>
-    <p><span class="paper-info"><b>Weipeng Jiang</b>, Juan Zhai, Shiqing Ma, Xiaoyu Zhang, Chao Shen<br>
-    ACM International Conference on the Foundations of Software Engineering <b>(FSE'24)</b></span>
-    <span class="paper-links"><a href="./pub/FSE24_COSTELLO.pdf" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">Paper</a> <a href="https://github.com/lenijwp/COSTELLO" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" alt="Code Icon">Code</a></span></p>
-</li>
-<li>
-    <p><i>Black-Box Fairness Testing with Shadow Models</i></p>
-    <p><span class="paper-info"><b>Weipeng Jiang</b>, Chao Shen, Chenhao Lin, Jingyi Wang, Jun Sun, Xuanqi Gao<br>
-    The 23rd International Conference on Information and Communications Security <b>(ICICS'23)</b></span>
-    <span class="paper-links"><a href="./pub/ICICS23_FairnessTesting.pdf" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">Paper</a> <a href="https://github.com/lenijwp/Black-box-Discrimination-Finder" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" alt="Code Icon">Code</a></span></p>
-</li>
-</ol>
-  
-<b>Journal papers</b>
-<ol>
-<li>
-  <p><i>Deep Learning Library Testing: Definition, Methods and Challenges</i></p>
-  <p><span class="paper-info">Xiaoyu Zhang, <b>Weipeng Jiang</b>, Chao Shen, Qi Li, Qian Wang, Chenhao Lin, Xiaohong Guan<br>
-  ACM Computing Surveys, 2025. <b>(CSUR)</b></span>
-  <span class="paper-links"><a href="https://arxiv.org/pdf/2404.17871" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">Paper</a></span></p>
-  </li>
-<li>
-    <p><i>Fairness in Machine Learning: Definition, Testing, Debugging and Application</i></p>
-    <p><span class="paper-info">Xuanqi Gao, Chao Shen, <b>Weipeng Jiang</b>, Chenhao Lin, Qian Li, Qian Wang, Qi Li, Xiaohong Guan<br>
-    Science China Information Sciences, Volume 67, article number 191201, 2024. <b>(SCIS)</b></span>
-    <span class="paper-links"><a href="https://arxiv.org/pdf/2408.11313" class="pdf-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">Paper</a></span></p>
-</li>
-</ol>
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li><strong>[Feb 2025]</strong> Two papers are accepted by AAAI 2026.</li>
+          <li><strong>[Feb 2025]</strong> Fortunate to serve on the PC for <a href="https://llmsc.github.io/"
+              target="_blank">LLMSC 2025</a>.</li>
+          <li><strong>[Jan 2025]</strong> Our paper about LLM Jailbreaking is accepted by NAACL Findings 2025.</li>
+          <li><strong>[Dec 2024]</strong> Invited to serve as a reviewer for <a href="https://icml.cc/"
+              target="_blank">ICML 2025</a>.</li>
+          <li><strong>[Aug 2024]</strong> Invited to serve as a reviewer for <a
+              href="https://iclr.cc/Conferences/2025/CallForPapers" target="_blank">ICLR 2025</a>.</li>
+          <li><strong>[Aug 2024]</strong> Invited to serve as a PC of Artifact Evaluation Track for <a
+              href="https://conf.researchr.org/track/icse-2025/icse-2025-artifact-evaluation" target="_blank">ICSE
+              2025</a>.</li>
+          <li><strong>[May 2024]</strong> Invited to serve as a reviewer for <a
+              href="https://neurips.cc/Conferences/2024/CallForPapers#/" target="_blank">NeurIPS 2024</a>.</li>
+          <li><strong>[Feb 2024]</strong> Our paper about Embedding-Service Testing is accepted by FSE'24.</li>
+        </ul>
+      </section>
 
+      <section id="publications">
+        <h2>Publications</h2>
+        <p> (* indicates equal contribution.)</p>
 
+        <h3 class="pub-year-header">2026</h3>
+        <ol class="pub-list">
+          <li>
+            <span class="pub-title">From Chaos to Clarity: A Knowledge Graph-Driven Audit Dataset Generation Framework
+              for LLM Unlearning</span>
+            <div class="pub-authors"><b>Weipeng Jiang</b>, Juan Zhai, Shiqing Ma, Ziyan Lei, Xiaofei Xie, Yige Wang,
+              Chao Shen</div>
+            <div class="pub-venue">The Fortieth AAAI Conference on Artificial Intelligence (AAAI'26)</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/pdf/2502.18810" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">Paper</a>
+            </div>
+          </li>
+          <li>
+            <span class="pub-title">MoMoREC: A Multi-agent Motivation Generation Framework for Residual Semantic
+              ID-Aware Recommendation</span>
+            <div class="pub-authors">Yige Wang, Mingming Li, Li Wang, Kaichen Zhao, Wangming Li, <b>Weipeng Jiang</b>,
+              Xueying LI</div>
+            <div class="pub-venue">The Fortieth AAAI Conference on Artificial Intelligence (AAAI'26)</div>
+          </li>
+        </ol>
 
-<!-- 
-<h2>Education</h2>
-<p>Joint Ph.D., <a href="https://www.sdsc.cityu.edu.hk//">School of Data Science</a>, City University of Hong Kong, 2022-2024</p>
-<p>Ph.D., <a href="https://ccst.jlu.edu.cn/">College of Computer Science and Technology</a>, Jilin University, 2021-2024</p>
-<p>M.E., <a href="https://ccst.jlu.edu.cn/">College of Computer Science and Technology</a>, Jilin University, 2018-2021</p>
-<p>B.E., <a href="https://ccst.jlu.edu.cn/">College of Computer Science and Technology</a>, Jilin University, 2014-2018</p> -->
+        <h3 class="pub-year-header">2025</h3>
+        <ol class="pub-list">
+          <li>
+            <span class="pub-title">The Invisible Hand: Unveiling Provider Bias in Large Language Models for Code
+              Generation</span>
+            <div class="pub-authors">Xiaoyu Zhang, Juan Zhai, Shiqing Ma, Qingshuang Bao, <b>Weipeng Jiang</b>, Chao
+              Shen, Yang Liu</div>
+            <div class="pub-venue">Proceedings of the 63rd Annual Meeting of the Association for Computational
+              Linguistics (ACL'25)</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/pdf/2501.07849" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">Paper</a>
+            </div>
+          </li>
+          <li>
+            <span class="pub-title">An Optimizable Suffix Is Worth A Thousand Templates: Efficient Black-box
+              Jailbreaking without Affirmative Phrases via LLM as Optimizer</span>
+            <div class="pub-authors"><b>Weipeng Jiang</b>, Zhenting Wang, Juan Zhai, Shiqing Ma, Zhengyu Zhao, Chao Shen
+            </div>
+            <div class="pub-venue">Findings of American Chapter of the Association for Computational Linguistics
+              Findings (NAACL Findings'25)</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/pdf/2408.11313" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">Paper</a>
+              <a href="https://github.com/lenijwp/ECLIPSE" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" alt="Code">Code</a>
+            </div>
+          </li>
+          <li>
+            <span class="pub-title">STAFF: Speculative Coreset Selection for Task-Specific Fine-tuning</span>
+            <div class="pub-authors">Xiaoyu Zhang, Juan Zhai, Shiqing Ma, Chao Shen, Tianlin Li, <b>Weipeng Jiang</b>,
+              Yang Liu</div>
+            <div class="pub-venue">The 13rd International Conference on Learning Representations (ICLR'25)</div>
+            <div class="pub-links">
+              <a href="https://openreview.net/pdf?id=FAfxvdv1Dy" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">Paper</a>
+              <a href="https://anonymous.4open.science/r/STAFF-4323" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" alt="Code">Code</a>
+            </div>
+          </li>
+          <li>
+            <span class="pub-title">Deep Learning Library Testing: Definition, Methods and Challenges</span>
+            <div class="pub-authors">Xiaoyu Zhang, <b>Weipeng Jiang</b>, Chao Shen, Qi Li, Qian Wang, Chenhao Lin,
+              Xiaohong Guan</div>
+            <div class="pub-venue">ACM Computing Surveys, 2025 (CSUR)</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/pdf/2404.17871" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">Paper</a>
+            </div>
+          </li>
+          <li>
+            <span class="pub-title">The Foundation Cracks: A Comprehensive Study on Bugs and Testing Practices in LLM
+              Libraries</span>
+            <div class="pub-authors"><b>Weipeng Jiang</b>, Xiaoyu Zhang, Xiaofei Xie, Jiongchi Yu, Yuhan Zhi, Shiqing
+              Ma, Chao Shen</div>
+            <div class="pub-venue">Arxiv 2025</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/pdf/2506.12320" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">Paper</a>
+            </div>
+          </li>
+        </ol>
 
-<h2>Academic Services</h2>
+        <h3 class="pub-year-header">2024</h3>
+        <ol class="pub-list">
+          <li>
+            <span class="pub-title">Efficient DNN-Powered Software with Fair Sparse Models</span>
+            <div class="pub-authors">Xuanqi Gao, <b>Weipeng Jiang</b>, Juan Zhai, Shiqing Ma, Xiaoyu Zhang, Chao Shen
+            </div>
+            <div class="pub-venue">The 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis
+              (ISSTA'24)</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/pdf/2407.02805" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">Paper</a>
+              <a href="https://github.com/Antimony5292/Ballot" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" alt="Code">Code</a>
+            </div>
+          </li>
+          <li>
+            <span class="pub-title">COSTELLO: Contrastive Testing for Embedding-based Large Language Model as a Service
+              Embeddings</span>
+            <div class="pub-authors"><b>Weipeng Jiang</b>, Juan Zhai, Shiqing Ma, Xiaoyu Zhang, Chao Shen</div>
+            <div class="pub-venue">ACM International Conference on the Foundations of Software Engineering (FSE'24)
+            </div>
+            <div class="pub-links">
+              <a href="./pub/FSE24_COSTELLO.pdf" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">Paper</a>
+              <a href="https://github.com/lenijwp/COSTELLO" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" alt="Code">Code</a>
+            </div>
+          </li>
+          <li>
+            <span class="pub-title">Fairness in Machine Learning: Definition, Testing, Debugging and Application</span>
+            <div class="pub-authors">Xuanqi Gao, Chao Shen, <b>Weipeng Jiang</b>, Chenhao Lin, Qian Li, Qian Wang, Qi
+              Li, Xiaohong Guan</div>
+            <div class="pub-venue">Science China Information Sciences, Volume 67, 2024 (SCIS)</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/pdf/2408.11313" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">Paper</a>
+            </div>
+          </li>
+          <li>
+            <span class="pub-title">From Effectiveness to Efficiency: Uncovering Linguistic Bias in Large Language
+              Model-based Code Generation</span>
+            <div class="pub-authors"><b>Weipeng Jiang</b>, Xuanqi Gao, Juan Zhai, Shiqing Ma, Xiaoyu Zhang, Ziyan Lei,
+              Chao Shen</div>
+            <div class="pub-venue">Arxiv 2024</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/pdf/2406.00602" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">Paper</a>
+            </div>
+          </li>
+        </ol>
 
-<h3>Conference Reviewer</h3>
-<ul>
-<li><p><strong>2026:</strong> ICLR, AAAI</p></li>
-<li><p><strong>2025:</strong> ICLR, ICML, AISTATS, ICSE Artifact Evaluation, LLMSC Workshop</p></li>
-<li><p><strong>2024:</strong> NeurIPS</p></li>
-</ul>
+        <h3 class="pub-year-header">2023</h3>
+        <ol class="pub-list">
+          <li>
+            <span class="pub-title">Black-Box Fairness Testing with Shadow Models</span>
+            <div class="pub-authors"><b>Weipeng Jiang</b>, Chao Shen, Chenhao Lin, Jingyi Wang, Jun Sun, Xuanqi Gao
+            </div>
+            <div class="pub-venue">The 23rd International Conference on Information and Communications Security
+              (ICICS'23)</div>
+            <div class="pub-links">
+              <a href="./pub/ICICS23_FairnessTesting.pdf" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF">Paper</a>
+              <a href="https://github.com/lenijwp/Black-box-Discrimination-Finder" class="btn-link" target="_blank"><img
+                  src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" alt="Code">Code</a>
+            </div>
+          </li>
+        </ol>
+      </section>
 
-<h3>Journal Reviewer</h3>
-<ul>
-<li><p>Journal of Software: Evolution and Process</p></li>
-</ul>
+      <section id="service">
+        <h2>Academic Services</h2>
 
+        <h4 style="margin-top: 20px; color: var(--primary-color);">Conference Reviewer</h4>
+        <ul>
+          <li><strong>2026:</strong> ICLR, AAAI</li>
+          <li><strong>2025:</strong> ICLR, ICML, AISTATS, ICSE Artifact Evaluation, LLMSC Workshop</li>
+          <li><strong>2024:</strong> NeurIPS</li>
+        </ul>
 
+        <h4 style="margin-top: 20px; color: var(--primary-color);">Journal Reviewer</h4>
+        <ul>
+          <li>Journal of Software: Evolution and Process</li>
+        </ul>
+      </section>
 
+      <section id="awards">
+        <h2>Honors and Awards</h2>
+        <ul class="news-list">
+          <li><strong>[2024]</strong> First-Class Scholarship for Ph.D. Candidates, Xi'an Jiaotong University.</li>
+          <li><strong>[2024]</strong> ACM SIGSOFT Travel Grants.</li>
+          <li><strong>[2021]</strong> Outstanding Graduates, Xi'an Jiaotong University.</li>
+          <li><strong>[2019]</strong> Lu-Shidi Scholarship (Top-5 students), Xi'an Jiaotong University.</li>
+          <li><strong>[2018, 2019]</strong> Silver Award in CCSP, China Computer Federation.</li>
+          <li><strong>[2018, 2019]</strong> Silver Award in ACM-ICPC Asia Regional.</li>
+        </ul>
+      </section>
 
+    </main>
+  </div>
 
-<h2>Honors and Awards</h2>
-<ul>
-<li><p><strong>[2024]</strong> First-Class Scholarship for Ph.D. Candidates, Xi'an Jiaotong University</p></li>
-<li><p><strong>[2024]</strong> ACM SIGSOFT Travel Grants</p></li>
-<li><p><strong>[2021]</strong> Outstanding Graduates, Xi'an Jiaotong University</p></li>
-<li><p><strong>[2019]</strong> Lu-Shidi Scholarship (Top-5 students in Computer Science School), Xi'an Jiaotong University and Qihoo 360</p></li>
-<li><p><strong>[2018, 2019]</strong> Silver Award in Collegiate Computer Systems & Programming Contest (CCSP), China Computer Federation</p></li>
-<li><p><strong>[2018, 2019]</strong> Silver Award in The International Collegiate Programming Contest of Asia Regional (ACM-ICPC), Association for Computing Machinery</p></li>
-</ul>
-
-
-<!--
-<ul>
-<li><p>Awards: Principal Level Scholarship (1st in admission)</p>
-</li>
-<li><p>Main Courses: Machine Learning, Design of Neural Networks, Digital Image Processing, Time Series Analysis, Pattern Recognition, Data Mining and Its Application, Artificial Intelligent: Theory and Application, Recommender System.</p>
-</li>
-</ul>
--->
-<!--
-<ul>
-<li><p>Main Courses: C Programming, Embedded Systems, Computer Network and Communication, Computer Control System.</p>
-</li>
-</ul>
-<h3>Competitions and awards</h3>
-<ol>
-<li><p>First-Class Scholarship, Zhejiang University of Science and Technology, 10.2011</p>
-</li>
-<li><p>National Encouragement Scholarship, 12.2011 & 12.2010</p>
-</li>
-<li><p>The 2nd Prize in the National Advanced Mathematics Contest for Undergraduates (Zhejiang), 12.2011</p>
-</li>
-<li><p>The 2nd Prize in the Zhejiang Advanced Mathematics Contest for Undergraduates, 04.2011</p>
-</li>
-<li><p>The 3rd Prize in the Zhejiang Advanced Mathematics Contest for Undergraduates, 10.2009 & 04.2010</p>
-</li>
-<li><p>The 3rd Prize in the Zhejiang Physics Contest for Undergraduates, 12.2009 & 12.2010</p>
-</li>
-<li><p>The 1st Prize in the Electronics Design Contests, Zhejiang University of Science and Technology, 12.2010</p>
-</li>
-</ol>
--->
-  
-<!--
-<h3>Activities</h3>
-<ol>
-<li><p>Teaching Assistant, Xiamen University, 09.2013-01.2014</p></li>
-<ul>
-<li><p>Guided freshmen in the subjects of Advanced Mathematics and Programming C and taught some learning skills</p>
-</li>
-</ul>
-<li><p>Assistant Mentor, Zhejiang University of Science and Technology, 09.2010-06.2011</p></li>
-<ul>
-<li><p>Led freshmen to adapt quickly to their new environment and helped them solve their study problems</p>
-</li>
-</ul>
-<li><p>Journalist, Press Corps of Zhejiang University of Science and Technology, 12.2008-06.2011</p></li>
-<ul>
-<li><p>Conducted face-to-face interviews, wrote news articles, which received positive audience responses</p>
-</li>
-</ul>
-<li><p>Founder and Editor in Chief, Say Ourselves, E-magazine, 12.2009-08.2011</p></li>
-<ul>
-<li><p>Created a monthly e-magazine about college life</p>
-</li>
-</ul>
-</ol>
--->
- 
-<!--
-<h2>Work experience</h2>
-<ol>
-<li><p>Research Scientist, AI Research Institute, Hithink RoyalFlush, 06.2019-Present</p></li>
-<ul>
-<li><p>Research the newest machine learning algorithms and recommender system technology on stocks and hot news</p>
-</li>
-<li><p>Apply neural network models to drug-target interaction prediction and evaluate the performance</p>
-</li>
-<li><p>Publish papers and apply for relevant patents for the corporation</p>
-</li>
-<li><p>Give lessons on Artificial Intelligence and Recommender Systems to the staff</p>
-</li>
-</ul>
-</ul>
-</ol>
--->
-
-<!--
-<p><br />
-<a href="cv/cv.pdf">A brief cv</a>.</p>
--->
-
-</td>
-</tr>
-</table>
 </body>
+
 </html>
